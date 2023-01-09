@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X1 Consultoria</title>
+    <link rel="stylesheet" href="./public/stylesheets/reset.css">
+    <link rel="stylesheet" href="./public/stylesheets/index.css">
+</head>
+
+<body>
+    <section class="MainContainer">
+
+        <div id="header"></div>
+        <script>
+            fetch('./public/partials/header.html')
+                .then(response => response.text())
+                .then(html => document.getElementById('header').innerHTML = html);
+        </script>
+
+        <div class="ParallaxContainer">
+            <div class="paralax-text">
+                <h3>Making an impact</h3>
+                <p>Recent years have challenged the world in unprecedented ways. These same challenges have
+                    driven us to build a better future. Learn how we worked side-by-side with our clients and
+                    communities to navigate those changes and boost</p>
+                    <button>Contact us</button>
+            </div>
+        </div>
+
+        <div class="ContentContainer">
+            </div>
+
+
+            <div class="Content">
+                <div class="banner-menu">
+                    <div class="ContentContainer-text">
+                        <h3>Connecting the dots. Its what we do.</h3>
+                        <p>Since the beginning, Deloitte has been about creating connections. With our clients, our talent, and our communities. Connecting with leaders far and wide, we are changing the world—making an impact that matters.</p>
+        
+                        <div class="ContentContainer-btn">
+                            <a href="#about">Sobre nós</a>
+                            <a href="#services">Serviços</a>
+                            <a href="#">Contato</a>
+                        </div>
+                  
+                </div>
+                </div>
+                </div>
+
+                <div class="about" id="about">
+                    <h2>SOBRE NOS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien est, cursus a pretium eget,
+                        rutrum ac ipsum. Aliquam convallis nulla velit. Donec et ligula ex. Pellentesque condimentum velit
+                        eget mi tempus, sed vehicula urna venenatis. Aliquam urna neque, malesuada at mi viverra, congue
+                        rutrum ipsum. Nullam pulvinar, tellus et luctus tincidunt, ipsum ligula vestibulum eros, quis
+                        malesuada sem justo ac tortor. Donec velit enim, dictum vitae justo vel, sagittis ultrices arcu.
+                        Praesent sit amet tortor in dolor hendrerit facilisis lobortis condimentum orci.
+    
+                        Quisque ultricies volutpat felis sed feugiat. Vivamus auctor nibh in libero porta, ultrices placerat
+                        purus placerat. Sed id nisi in urna aliquet egestas ut sit amet lorem. Aliquam erat volutpat. Duis
+                        gravida tempus sapien, a venenatis ipsum. Vivamus pharetra mattis lorem in scelerisque. Curabitur
+                        maximus, elit non imperdiet placerat, lectus ante cursus tellus, sit amet porttitor tellus metus id
+                        dui.
+                    </p>
+
+
+                </div>
+               
+          
+            <!-- <div class="Content"> -->
+                <div class="services" id="services">
+                    <h2>SERVICOS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien est, cursus a pretium eget,
+                        rutrum ac ipsum. Aliquam convallis nulla velit. Donec et ligula ex. Pellentesque condimentum velit
+                        eget mi tempus, sed vehicula urna venenatis. Aliquam urna neque, malesuada at mi viverra, congue
+                        rutrum ipsum. Nullam pulvinar, tellus et luctus tincidunt, ipsum ligula vestibulum eros, quis
+                        malesuada sem justo ac tortor. Donec velit enim, dictum vitae justo vel, sagittis ultrices arcu.
+                        Praesent sit amet tortor in dolor hendrerit facilisis lobortis condimentum orci.
+    
+                        Quisque ultricies volutpat felis sed feugiat. Vivamus auctor nibh in libero porta, ultrices placerat
+                        purus placerat. Sed id nisi in urna aliquet egestas ut sit amet lorem. Aliquam erat volutpat. Duis
+                        gravida tempus sapien, a venenatis ipsum. Vivamus pharetra mattis lorem in scelerisque. Curabitur
+                        maximus, elit non imperdiet placerat, lectus ante cursus tellus, sit amet porttitor tellus metus id
+                        dui.
+                    </p>
+                </div>
+            
+
+  
+
+            </section>
+</body>
+
+</html>
