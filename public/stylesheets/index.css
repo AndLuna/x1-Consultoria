@@ -404,16 +404,6 @@ footer {
   bottom: 0;
 }
 
-.go-to-top{
-  display: none;
-  position: fixed;
-  right:20%;
-  bottom: 20%;
-  font-size: 2rem;
-  width: 2rem;
-  height: 2rem;
-  z-index: 20;
-  color: var(--contraste-color);
-}
+
 
 
