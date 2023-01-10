@@ -89,10 +89,16 @@ nav{
     height: 100%;
     width: 100%;
     font-size: 1.5rem;
-    
 }
 
 .header-navbar a:hover{
     border-bottom: 4px solid var(--corPadrao);
     color: white;
+}
+
+
+
+.section_rodape a:hover{
+  color: white;
+  font-size: 1.2rem;
 }

@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Clicker+Script&family=Kanit:wght@100&family=Poppins:wght@200;300;500;600;700&display=swap');
 
+:root{
+  --ideal-viewport-width: 1600;
+  --max-width: 1600px;
+  --bg-color: #202225;
+  --bg-color-secondary: #2f3137;
+  --bg-color-secondary-light: hsl(225, 8%, 60%);
+  --text-color: #fff;
+  --text-color-dark: hsl(0, 0%, 70%);
+  --text-color-black: hsl(0, 0%, 0%);
+  --font-footer: 'Oswald', sans-serif;
+  --font-normal: 'DM Sans', sans-serif;
+}
+
 
 body {
   font-family: 'Chivo Mono', monospace;
     font-size: 18px;
     line-height: 28px;
   }
-  /* h1 {
-    letter-spacing: -15px;
-    font-family: Open Sans;
-    color: white;
-    text-align: center;
-    font-size: 200px;
-    font-weight: 800;
-    line-height: 200px;
-  } */
+
   .MainContainer {
     perspective: 1px;
     transform-style: preserve-3d;
@@ -22,6 +27,7 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
   }
+
   .ContentContainer {
     position: relative;
     display: block;
@@ -274,7 +280,6 @@ margin-top: 0px;
     );
     transform:  translateY(65%);
     transition: transform 400ms ease;
-  
 
 }
 
@@ -342,7 +347,7 @@ margin-top: 0px;
 } 
 
 
- @media (max-width: 899px){
+@media (max-width: 899px){
 .cardes, .cards, .card{
     margin-top: 100px;
     display: flex;
@@ -350,4 +355,65 @@ margin-top: 0px;
     height: 500px;
 }
 }
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  background-color: #000;
+  color: #58e880;
+  font-family: var(--font-normal);
+}
+
+.section_rodape {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: .5rem 1.5rem;
+}
+
+.section_rodape>*, .section_termos>* {
+  margin: 0.3rem;
+}
+
+.section_termos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.8em;
+}
+
+.logo_rodape {
+  Height: 3em;
+}
+
+.rodape_icon {
+  margin-right: 1em;
+  margin-left: 1em;
+  Height: 1.5em;
+}
+
+.fixed-at-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.go-to-top{
+  display: none;
+  position: fixed;
+  right:20%;
+  bottom: 20%;
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  z-index: 20;
+  color: var(--contraste-color);
+}
+
 
