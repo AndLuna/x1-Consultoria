@@ -31,15 +31,8 @@
   </p>
 </h4>
 
-<p align="center">
-<img width="460" height="300" src="src/assets/to_readme/xoneLogin.png"
-</p>
-<p align="center">
-<img width="460" height="300" src="src/assets/to_readme/xoneHome.png"
-</p>
-<p align="center">
-<img width="460" height="300" src="src/assets/to_readme/xoneBot.png"
-</p>
+
+
 
 
 
@@ -63,5 +56,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :eyes: Confira o site
 https://andluna.github.io/x1-Consultoria/
+	
+<a href="https://drive.google.com/drive/folders/1-2HPqauum-jyuVGYdiFAgmlrb9fvOFbh?usp=share_link" target="_blank">Drive</a>
+
 
 
