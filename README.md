@@ -31,6 +31,10 @@
   </p>
 </h4>
 
+## :eyes: Confira o site e o Drive do projeto
+https://andluna.github.io/x1-Consultoria/
+	
+<a href="https://drive.google.com/drive/folders/1-2HPqauum-jyuVGYdiFAgmlrb9fvOFbh?usp=share_link" target="_blank">Drive</a>
 
 
 
@@ -54,10 +58,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 -  [EinsteinBot](https://help.salesforce.com/s/articleView?id=sf.bots_service_intro.htm&type=5)
 -  [Bootstrap](https://getbootstrap.com/)
 
-## :eyes: Confira o site
-https://andluna.github.io/x1-Consultoria/
-	
-<a href="https://drive.google.com/drive/folders/1-2HPqauum-jyuVGYdiFAgmlrb9fvOFbh?usp=share_link" target="_blank">Drive</a>
 
 
 
