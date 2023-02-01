@@ -1,7 +1,7 @@
 # XONE Consultoria
 <h1 align="center">
    <a href="https://glittery-kringle-a9ac06.netlify.app/index.html">
-	<img alt="Logo" src="https://tiinside.com.br/wp-content/uploads/2021/10/SoulCode.png" />
+	  <img alt="Logo" width="400px" height="369px"src="xoneLogin (1).png" />
 	</a>
     <br>
 </h1>
@@ -31,15 +31,6 @@
   </p>
 </h4>
 
-## :eyes: Confira o site e o Drive do projeto
-https://andluna.github.io/x1-Consultoria/
-	
-<a href="https://drive.google.com/drive/folders/1-2HPqauum-jyuVGYdiFAgmlrb9fvOFbh?usp=share_link" target="_blank">Drive</a>
-
-
-
-
-
 <p align="center">
   <a href="#rocket-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">Como utilizar</a>
@@ -57,6 +48,48 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 -  [Aura](https://developer.salesforce.com/docs/component-library/bundle/aura:component/documentation)
 -  [EinsteinBot](https://help.salesforce.com/s/articleView?id=sf.bots_service_intro.htm&type=5)
 -  [Bootstrap](https://getbootstrap.com/)
+
+
+
+<h1 align="center">
+Our home with the most important reports
+    <br>
+   <a href="https://github.com/AndLuna">
+	 <img alt="Logo" width="820px"  height="469px" src="xoneHome.png" />
+	</a>
+    <br>
+    <br>
+</h1>
+<h1 align="center">
+Our ChatBot integrated with our social network
+    <br>
+   <a href="https://github.com/AndLuna">
+	 <img alt="Logo" width="820px"  height="469px" src="xoneBot.png" />
+	</a>
+    <br>   
+    <br>
+</h1>
+<h1 align="center">
+ Our Communitty
+     <br>
+   <a href="https://github.com/AndLuna">
+	 <img alt="Logo" width="820px"  height="469px"src="xoneComunity.png" />
+	</a>
+    <br>   
+    <br>
+</h1>
+
+<h1 align="center">
+ Our Account GPS location System 
+     <br>
+   <a href="https://github.com/AndLuna/map-location">
+	 <img alt="Logo" width="820px" height="469px" src="xOneMap.png" />
+	</a>
+    <br>   
+    <br>
+</h1>
+
+
 
 
 
